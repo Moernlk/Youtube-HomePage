@@ -1,0 +1,117 @@
+button {
+  background-color: white;
+  transition: opacity 0.15s, color 0.15s, cursor 0s, background-color 0.15s;
+
+}
+
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  margin: 0;
+  padding-top: 56px;
+  padding-right: 20px;
+  
+}
+div {
+  transition: opacity 0.15s, color 0.15s, cursor 0s, background-color 0.15s;
+}
+.elemental-style {
+  background-color: white;
+  color: rgb(32,32,32);
+}
+.guide-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 100%;
+  left: 0%;
+  visibility: visible;
+  width: 20px;
+  content: "";
+  height:2174px;
+  z-index: 1000;
+}
+.center {
+  position: relative;
+  display: flex;
+  border: none;
+  bottom: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 20px;
+  background-color: transparent;
+  color: transparent;
+  margin-right: 0px;
+  padding: 0px;
+  background-color: #00000000;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(77, 76, 76, 0.873);
+  border-radius: 15px;
+  border: solid;
+  border-width: 4.5px;
+  border-color: white;
+  z-index: 0;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(154, 152, 152, 0.873);;
+
+}
+
+.notification-icon-container .popup-informations,
+.voice-button .popup-informations,
+.left-buttons .popup-informations,
+.menu-logo-container .popup-informations {
+  
+  position: absolute;
+  font-family: Roboto, Arial, sans-serif; 
+  font-size: 12px;
+  
+  background-color: rgb(101, 101, 101);
+  color: white;
+
+  border-radius: 3px;
+  
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+  transition: opacity 0.5s;
+  opacity: 0;
+
+  z-index: 100;
+
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+
+.notification-icon-container:hover .popup-informations,
+.voice-button:hover .popup-informations,
+.left-buttons:hover .popup-informations,
+.menu-logo-container:hover .popup-informations {
+  opacity: 0.95;
+  z-index: 100;
+
+}
+
+#notification-icon {
+  position: absolute;
+  font: 100;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 11px;
+  color: white;
+  background-color:  red;
+  border-radius: 11px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  cursor: pointer;
+}
+

@@ -1,0 +1,88 @@
+
+
+.left-base {
+  display: inline-block;
+
+  position: fixed;
+  z-index:10;
+  background: inherit;
+  
+  width: 100%;
+  min-width: 64px;
+  max-width: 74px;
+  
+  padding-left: 2px;
+  padding-right: 2px;
+  height: 1878px;
+  padding-top: 30px;
+  background-color: white;
+}
+.div-img {
+  width: 100%;
+  max-width: 74px;
+  padding-bottom: 6px;
+}
+.left-button-img {
+  position: top;
+  min-width: 17px;
+  min-height: 20px;
+  max-width: 24px;
+  max-height: 24px;
+  margin: 0px;
+  
+}
+.left-buttons {
+  position: relative;
+  display: block;
+  color: black;
+  background-color: white;
+
+  justify-content: center;
+  align-items: center;
+ 
+  border: none;
+  border-radius: 10px;
+
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: 74px;
+  max-height: 74px;
+
+  padding-top: 16px;
+  padding-bottom: 14px;
+
+  transition: background-color 0.15s;
+}
+
+
+.notification-icon-left {
+  right: 20px;
+  top: 12px;
+}
+
+.left-buttons:hover {
+  cursor: pointer;
+  background-color: rgb(227, 221, 221);
+}
+.left-buttons:active {
+  background-color: rgb(195, 194, 194);
+}
+.left-button-name {
+  display: block;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+
+}
+
+.subtitle-buttons {
+ background-color: transparent;
+}
+
+
+#left-popup {
+  bottom: 33px;
+  right: -125%;
+}
