@@ -1,0 +1,52 @@
+
+      p {
+        font-family: Montserrat;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: rgb(96, 96, 96);
+      }
+    .video-title {
+      font-size: 18;
+      font-weight: bold;
+      color: rgb(33, 37, 41);
+      margin-bottom: 2px;
+      width: 280px;
+      line-height: 24px;
+    }
+    .dados-video {
+      font-size: 14px;
+      margin-top: 0px;
+      margin-bottom: 16px
+    }
+    .nome-canal {
+      font-size: 14;
+      margin-top: 0px;
+      margin-bottom: 16px;
+    }
+    .descricao-video {
+      font-size: 14;
+      margin-bottom: 16;
+      line-height: 22px;
+      width: 280px;
+      margin-bottom: 15px;
+    }
+    .apple-texto {
+      background-color: rgb(227, 65, 64);
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    .und:hover {
+      text-decoration: underline;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 10px;
+    }
+    .span-example {
+      color: red;
+    }

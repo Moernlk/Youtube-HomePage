@@ -1,0 +1,179 @@
+      
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      #container-center {
+        text-align: center;
+        }
+      .space {
+        font-size: 10px;
+        margin-bottom: 10px;
+      }
+      .Title {
+        font-family: Tahoma;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: px;
+      }
+      .course-title {
+        font-family: Verdana;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 2px;
+      }
+      .course-subtitle {
+        font-family: Verdana;
+        font-size: 13px;
+        color: gray;
+        margin-bottom: 15px;
+      }
+      .main-text {
+        font-family: Verdana;
+        font-size: 13px;
+        font-weight: 0;
+        width: 250px;
+        margin-bottom: 10px;
+      }
+      .starting {
+        font-family: Verdana;
+        background-color:  rgba(14, 138, 14, 0.81);
+        color: white;
+        padding-top: 5;
+        padding-bottom: 5;
+        padding-left: 10;
+        padding-right: 10;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: opacity 0.15s;
+
+      }
+      .starting:hover {
+        opacity: 0.85;
+      }
+      .starting:active {
+        opacity: 0.55;
+      }
+      .deals-title {
+        font-family: Arial;
+        font-weight: bold;
+        color: #1d1d1f;
+        font-size: 20px;
+        margin-bottom: 3px;
+      }
+      .sales-deals {
+        font-family: Arial;
+        font-size: 15;
+        font-style: italic;
+        color: rgb(166, 32, 32);
+      }
+      .shop-title {
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: bold;
+        color: #1d1d1f;
+        margin-bottom: 20px;
+      }
+      .apple-subtitle {
+        font-family: Arial;
+        font-size: 13px;
+        margin-bottom: 15px;
+      }
+      .apple-link {
+        font-family: Arial;
+        font-size: 13px;
+        color: rgb(55, 116, 246);
+        transition: text-decoration 0.15s;
+      }
+      .apple-link:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      .button-buy {
+        text-align : center;
+        background-color: rgb(0, 110, 219);;
+        color: rgb(219, 219, 219);
+        font-family: arial;
+        font-size: 12;
+        font-weight: 100;
+        border: none;
+        border-radius: 14px;
+        padding-bottom: 5px;
+        padding-top: 6px;
+        padding-right: 11;
+        padding-left: 12;
+      }
+      .button-buy:hover {
+        background-color: rgb(11, 116, 221);
+      }
+      
+      .new {
+        font-family: Arial;
+        font-size: 13;
+        color: rgb(191, 72, 0);
+        font-weight: 600;
+        padding-bottom: 8px;
+      }
+
+      .Apple-Mac-Title {
+        font-family: arial;
+        font-size: 16;
+        font-weight: 600;
+        color: rgb(29, 29, 31);
+      }
+      .Apple-Mac-subtitle {
+        font-family: Arial;
+        font-size: 30px;
+        font-weight: 600;
+        color: rgb(16, 16, 17);
+        padding-bottom: 8px;
+      }
+      .price {
+        font-family: Arial;
+        font-size: 12;
+        color: rgb(0, 0, 0);
+        padding-bottom: 10;
+      }
+      
+      .number-title {
+        font-family: Arial;
+        color: rgb(0, 0, 0);
+        font-size: 25px;
+        margin-bottom: 1;
+      }
+      .USD {
+        font-size: 15px;
+        color: rgb(29, 29, 31);
+      }
+      .green {
+        font-family: Arial;
+        font-size: 14px;
+        color: green;
+        margin-bottom: 5;
+      }
+      .gray {
+        font-family: Arial;
+        font-size: 15px;
+        color: rgb(91, 91, 91);
+        font-weight: lighter;
+      }
+      .red{
+        color: rgb(188, 7, 7);;
+      }
+      .free {
+        font-family: arial;
+        color:  black;
+        font-weight: 600;
+        padding-bottom: 5;
+      }
+      .text-5g {
+        font-family: Arial;
+        font-size: 15;
+        font-weight: 400;
+        padding-bottom: 15;
+        width: 500;
+      }

@@ -1,0 +1,58 @@
+.href {
+  color: rgb(111, 111, 255);
+  transition: color 1;
+}
+.href:hover {
+  color: rgb(64, 42, 231);
+}
+.preco-estoque {
+  color: rgb(0,118,0);
+}
+
+.nome-tenis {
+  color: black;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.add-card-button {
+  background-color: rgb( 255, 216, 20);
+  color: black ;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  margin-right: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  transition: background-color 0.2, opacity 0.15;
+}
+.add-card-button:hover {
+  background-color: rgb( 255, 200, 23);
+}
+.add-card-button:active {
+  opacity: 0.5;
+}
+
+.buy-now-button {
+  background-color: rgb( 255, 164, 28);
+  color: black ;
+  border: none;
+  border-radius: 30px;
+  font-size: 12px;
+  height: 30px;
+  width: 100px;
+  margin-right: 8px;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  transition: background-color 1, opacity 0.15;
+}
+.buy-now-button:hover {
+  background-color: rgb( 255, 180, 28);
+}
+.buy-now-button:active {
+  opacity: 0.5;
+}
+

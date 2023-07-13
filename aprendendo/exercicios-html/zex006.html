@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html>
+
+  <meta charset="UTF-8">
+  
+  <head>
+  
+    <title>exercícios 6</title>
+     
+    <style>
+    
+      .div-account {
+        display: inline-block;
+        
+        border: none;
+        box-shadow: 0px 0px 5px rgb(32,32,32);
+        margin-left: 10px;
+      }
+    
+      .oliver-account {
+        object-position: center;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+      }
+    
+      .name-account, .sub-name-account {
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: 600;
+
+        margin-top: 0px;
+        margin-bottom: 3px;
+      }
+      .sub-name-account{
+        color: rgb(109, 109, 109);
+        font-weight: 450em;
+      }
+    
+      .name-account:hover {
+        cursor: pointer;
+       }    
+    
+       .relate-to,
+       .popularidade {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        color: rgb(109, 109, 109);
+        margin-bottom: 3px;
+        margin-top: 3px;
+       }
+    
+       .button-add, .name-account, .relate-to {
+        margin-top: 3px;
+        margin-left:10px;   
+       }
+       
+       .button-add{
+          margin-bottom: 10px;
+          padding-top: 8px;
+          padding-bottom: 7.5px;
+          padding-right: 10px;
+          padding-left: 10px;
+          border-radius: 3px;
+          border: solid;
+          border-width: 0.5px;
+          background-color: rgba(22, 102, 199, 0.91);
+          color: white;
+          transition: opacity 0.15s;
+        }
+       
+        .button-add:hover,.button-follow:hover {
+          cursor: pointer;
+          opacity: 0.90;
+        }
+       
+        .button-add:active, .button-follow:active {
+          opacity: 0.80;
+        }
+        .button-follow {
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 600;
+          vertical-align: top;
+          margin-bottom: 0px;
+          margin-top: 25px;
+          margin-left: 10px;
+          padding-top: 8px;
+          padding-bottom: 7.5px;
+          padding-right: 10px;
+          padding-left: 10px;
+          border-radius: 4px;
+          border: none;
+          border-width: 0.5px;
+          background-color: rgba(22, 102, 199, 0.91);
+          color: white;
+
+        }
+        .area-oliver-circular {
+          display: inline-block;
+          width: 80px;
+          height: 80px;
+        }
+        .oliver-circular {
+          border: solid;
+          border-width: 2px;
+          border-color:rgb(32,32,32);         
+          width: 85%;
+          height: 85%;
+          object-fit:cover;
+          object-position: top;
+          border-radius: 80px;
+          margin-top: 5px;
+          margin-bottom: 5px;
+          margin-left: 5px;
+          margin-right: 5px;
+          box-shadow: 0px 0px 5px;
+          transition: width 1s, height 1s;
+        }
+        .oliver-circular:hover {
+          cursor: pointer;
+          width: 221px;
+          height: 220px;
+          border-radius: 20px;
+          border: solid;
+          border-width: 2px;
+          border-color:rgb(32,32,32);
+          
+  
+
+        }
+        .oliver-deitado {
+          vertical-align: middle;
+          margin-top: 20px;
+          height: 80px;
+          width: 390px;
+          box-shadow: 0px 0px 5px;
+          border-radius: 5px;
+        }
+        .name-account-deitado{
+          font-family: Arial;
+          font-size: 20px;
+          font-weight: 600;
+          padding-top: 0px;
+          margin-top: 7px;
+          margin-bottom: 5px;
+        }
+        .oliver-infos {
+          display: inline-block;
+          vertical-align: top;
+          margin-bottom: 10px;
+          width: 220px;
+
+        }
+        .button-div {
+          display: inline-block;
+          height: 72px;
+          width: 80px;
+          margin-right: 0.5;
+          margin-top: 1px;
+          vertical-align: top;
+        }
+      </style>
+    
+    </head>
+  
+  <body>
+  
+    <div class="div-account">
+  
+      <img class="oliver-account" src="/aprendendo/exercicios-html/images.jpeg" alt="">
+  
+      <p class="name-account">Oliver</p>
+  
+      <p class="relate-to">2 mutual Friend</p>
+  
+      <Button class="button-add">Add Friend</Button>
+  
+    </div>
+  
+    <div class="div-account">
+  
+      <img class="oliver-account" src="/aprendendo/exercicios-html/download.jpeg" alt="">
+  
+      <p class="name-account">Mimi</p>
+  
+      <p class="relate-to">5 mutual Friend</p>
+  
+      <Button class="button-add">Add Friend</Button>
+  
+    </div>
+  
+    <div class="div-account">
+  
+      <img class="oliver-account" src="/aprendendo/exercicios-html/75552.ngsversion.1422285553360.jpg" alt="">
+  
+      <p class="name-account">Gratus</p>
+  
+      <p class="relate-to">1 mutual Friend</p>
+  
+      <Button class="button-add">Add Friend</Button>
+  
+    </div>
+  
+    <div class="oliver-deitado">
+      <div class="area-oliver-circular" >
+        <img class="oliver-circular" src="/aprendendo/exercicios-html/images.jpeg"" alt="">
+      </div>
+      <div  class="oliver-infos">
+        <p class="name-account-deitado">Oliver</p>
+        <p class="sub-name-account">the cat</p>
+        <p class="popularidade">Popular</p>
+      </div> 
+        <div class="button-div">
+          <button class="button-follow">Follow</button>
+        </div>
+        <p style="font-size: 100px;">''</p>
+        <p>''</p>
+
+      </div>
+      
+    </div>
+  </body>
+
+</html>
